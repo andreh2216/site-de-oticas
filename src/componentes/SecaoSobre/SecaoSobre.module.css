@@ -1,0 +1,63 @@
+.secaoSobre{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 20px;
+    background-color: #F8f7ff;
+
+  
+}
+
+.container_cards{
+    display: grid;
+    grid-template-columns: auto auto ;
+   
+    width: 100%;
+    max-width: 1024px;
+ 
+  
+}
+
+.card_img, .card_info{
+
+    margin: 0 auto;
+
+    width: 100%;
+    height: 300px;
+    border: 2px solid #c4c4c4;
+    background-color: #fff;
+}
+
+.card_info{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+
+.subti{
+    font-size: 30px;
+   font-family: Verdana;
+    margin-bottom: 30px;
+}
+
+.parag{
+   
+    width: 100%;
+    max-width: 1024px;
+    margin-top: 35px;
+    text-align: center;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+
+.par{
+    color: #4a4a4a;
+}

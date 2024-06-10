@@ -1,0 +1,30 @@
+.logotipo{
+
+    height: 50%;
+    width: 17%;
+
+
+}
+
+.topo{
+
+    height: 50px;
+    max-width: 1024px;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.topo nav .links{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.topo nav .links:hover{
+    
+   text-decoration:un;
+  
+}
